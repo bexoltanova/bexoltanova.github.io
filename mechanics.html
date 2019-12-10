@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/course_style.css" />
+    <title>Mechanics</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container clearfix">
+        <a href="index.html" class="logo">
+          <img
+            src="img/logo_physics_original.png"
+            class="logo_img"
+            alt="logo"
+          />
+        </a>
+        <nav class="menu">
+          <a href="#courses" class="menu_link">Курсы</a>
+          <a href="" class="menu_link">Контакты</a>
+        </nav>
+      </div>
+    </header>
+    <section class="project_promo">
+      <div class="container">
+        <h1 class="course_name">Механика</h1>
+        <div class="course_content clearfix">
+          <div class="category">
+            <ul class="category_title">
+              <li class="category_item">
+                <button
+                  class="category_btn"
+                  onclick="openLecture(event, 'Mch1')"
+                  id="defaultOpen"
+                >
+                  Некоторые методы результатов измерений
+                </button>
+              </li>
+              <li class="category_item">
+                <button
+                  class="category_btn"
+                  onclick="openLecture(event, 'Mch2')"
+                >
+                  Определение скорости полета пули с помощью баллистического
+                  маятника
+                </button>
+              </li>
+              <li class="category_item">
+                <button
+                  class="category_btn"
+                  onclick="openLecture(event, 'Mch3')"
+                >
+                  Определение коэффициента внутреннего трения жидкости по методу
+                  Стокса
+                </button>
+              </li>
+              <li class="category_item">
+                <button
+                  class="category_btn"
+                  onclick="openLecture(event, 'Mch4')"
+                >
+                  Проверка законов сохранения импульса и энергии на примере
+                  соударения тел
+                </button>
+              </li>
+              <li class="category_item">
+                <button
+                  class="category_btn"
+                  onclick="openLecture(event, 'Mch5')"
+                >
+                  Определение ускорения свободного падения с помощью машины
+                  Атвуда
+                </button>
+              </li>
+              <li class="category_item">
+                <button
+                  class="category_btn"
+                  onclick="openLecture(event, 'Mch6')"
+                >
+                  Маятник Максвелла
+                </button>
+              </li>
+              <li class="category_item">
+                <button
+                  class="category_btn"
+                  onclick="openLecture(event, 'Mch7')"
+                >
+                  Изучение движения гироскопа
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="content">
+            <div id="Mch1" class="tabcontent">
+              <object
+                data="img/mch1.swf"
+                type="application/x-shockwave-flash"
+                width="100%"
+                height="800"
+              >
+                <param name="movie" value="img/mch1.swf"
+              /></object>
+            </div>
+            <div id="Mch2" class="tabcontent">
+              <object
+                data="img/mch2.swf"
+                type="application/x-shockwave-flash"
+                width="100%"
+                height="800"
+              >
+                <param name="movie" value="img/mch2.swf"
+              /></object>
+            </div>
+            <div id="Mch3" class="tabcontent">
+              <object
+                data="img/mch3.swf"
+                type="application/x-shockwave-flash"
+                width="100%"
+                height="800"
+              >
+                <param name="movie" value="img/mch3.swf"
+              /></object>
+            </div>
+            <div id="Mch4" class="tabcontent">
+              <object
+                data="img/mch4.swf"
+                type="application/x-shockwave-flash"
+                width="100%"
+                height="800"
+              >
+                <param name="movie" value="img/mch4.swf"
+              /></object>
+            </div>
+            <div id="Mch5" class="tabcontent">
+              <object
+                data="img/mch5.swf"
+                type="application/x-shockwave-flash"
+                width="100%"
+                height="800"
+              >
+                <param name="movie" value="img/mch5.swf"
+              /></object>
+            </div>
+            <div id="Mch6" class="tabcontent">
+              <object
+                data="img/mch6.swf"
+                type="application/x-shockwave-flash"
+                width="100%"
+                height="800"
+              >
+                <param name="movie" value="img/mch6.swf"
+              /></object>
+            </div>
+            <div id="Mch7" class="tabcontent">
+              <object
+                data="img/mch7.swf"
+                type="application/x-shockwave-flash"
+                width="100%"
+                height="800"
+              >
+                <param name="movie" value="img/mch7.swf"
+              /></object>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">
+          <a href="" class="copyright_link">Aigerim Bexoltanova</a>
+          &copy; 2019 All Right Reserved
+        </p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
