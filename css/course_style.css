@@ -1,0 +1,72 @@
+.course_name {
+  padding-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #302a2a;
+}
+.course_content {
+  margin-top: 30px;
+  border-top: 1px solid #c5c5c5;
+}
+.category {
+  margin: 50px 20px 0;
+  width: 25%;
+  float: left;
+  color: #525252;
+  background: #c1c7f9;
+  font-size: 14px;
+  /* overflow: hidden; */
+}
+.content {
+  width: 70%;
+  float: left;
+  padding: 10px 20px;
+}
+.category_item {
+  border-bottom: 1px solid #c5c5c5;
+
+  list-style-type: none;
+}
+.category_item button {
+  display: inline-block;
+  width: 100%;
+  padding: 20px 5px;
+  background-color: inherit;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.category_item button:hover {
+  background: #f2f3fc;
+}
+.category_item button.active {
+  background: #f2f3fc;
+}
+.tabcontent {
+  display: none;
+  -webkit-animation: fadeEffect 1.5s;
+  animation: fadeEffect 1.5s;
+}
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.item_text {
+  font-size: 16px;
+  line-height: 30px;
+}
